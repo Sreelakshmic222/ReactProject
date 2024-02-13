@@ -1,0 +1,65 @@
+.header {
+    background-color: yellow;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .sales-table {
+    width: 70%; /* Increased table width */
+    border-collapse: collapse;
+    margin-right: 20px; /* Increased margin */
+    border: 1px solid #ddd; /* Add border */
+    border-spacing: 0; /* Remove spacing between cells */
+    margin-left: 20px; /* Add space on the left */
+  }
+  
+  .sales-table td,
+  .sales-table th {
+    padding: 12px; /* Increased padding */
+    border: 1px solid #ddd;
+  }
+  
+  .sales-table th {
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
+  .sales-table input[type="number"],
+  .sales-table input[type="date"],
+  .sales-table input[type="text"],
+  .sales-table select {
+    width: 100%;
+    padding: 10px; /* Increased padding */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button-container {
+    width: 25%; /* Adjusted width */
+    display: flex;
+    flex-direction: column;
+    background-color: #ffb74d; /* Yellow-orange color */
+    padding: 10px; /* Add padding */
+    margin-right: 20px; /* Add space on the right */
+  }
+  
+  .button-container button {
+    margin-bottom: 6px; /* Reduced margin */
+    padding: 8px 12px; /* Reduced padding */
+    font-size: 14px; /* Reduced font size */
+    background-color: #ff9800; /* Yellow-orange color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white; /* Text color */
+  }
+  
+  .button-container button:hover {
+    background-color: #f57c00; /* Darker color on hover */
+  }
+  
